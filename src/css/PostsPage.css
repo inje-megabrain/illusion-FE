@@ -1,0 +1,11 @@
+.PostsPageImage {
+    justify-Content: center;
+    display: flex;
+    align-Items: center;
+}
+
+.PostsPageImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
