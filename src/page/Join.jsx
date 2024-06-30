@@ -10,7 +10,7 @@ function Join() {
         <>
             <div style={{ marginTop: 150, display: 'flex', justifyContent: 'center', fontSize: 30, color: 'lightblue' }}>Illusion</div>
             <div style={{ marginTop: 20, display: 'flex', justifyContent: 'center', alignItems: 'center', color: 'grey' }}>
-                닉네임 입력
+                *닉네임 입력
                 <form noValidate autoComplete="off">
                     <FormControl sx={{ width: '25ch', marginLeft: 2 }}>
                         <OutlinedInput />
@@ -19,7 +19,7 @@ function Join() {
                 </form>
             </div>
             <div style={{ marginTop: 20, display: 'flex', justifyContent: 'center', alignItems: 'center', color: 'grey' }}>
-                아이디 입력
+                *아이디 입력
                 <form noValidate autoComplete="off">
                     <FormControl sx={{ width: '25ch', marginLeft: 2 }}>
                         <OutlinedInput />
@@ -28,7 +28,25 @@ function Join() {
                 </form>
             </div>
             <div style={{ marginTop: 20, display: 'flex', justifyContent: 'center', alignItems: 'center', color: 'grey' }}>
-                비밀번호 입력
+                *비밀번호 입력
+                <form noValidate autoComplete="off">
+                    <FormControl sx={{ width: '25ch', marginLeft: 2 }}>
+                        <OutlinedInput />
+                        <MyFormHelperText />
+                    </FormControl>
+                </form>
+            </div>
+            <div style={{ marginTop: 20, display: 'flex', justifyContent: 'center', alignItems: 'center', color: 'grey' }}>
+                *전화번호 입력
+                <form noValidate autoComplete="off">
+                    <FormControl sx={{ width: '25ch', marginLeft: 2 }}>
+                        <OutlinedInput />
+                        <MyFormHelperText />
+                    </FormControl>
+                </form>
+            </div>
+            <div style={{ marginTop: 20, display: 'flex', justifyContent: 'center', alignItems: 'center', color: 'grey' }}>
+                *이메일 입력
                 <form noValidate autoComplete="off">
                     <FormControl sx={{ width: '25ch', marginLeft: 2 }}>
                         <OutlinedInput />

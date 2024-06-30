@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {Box, Rating} from "@mui/material";
 import {getPosts} from "../apis/fetchPosts.js";
 import {useNavigate} from "react-router-dom";
+import '/src/css/PostsPage.css'
 
 function PostsListBox() {
     useEffect(() => {
@@ -32,14 +33,14 @@ function PostsListBox() {
                 p={2}
                 sx={{ border: '1px solid lightgrey', borderRadius: 1 }}
             >
-                <div style={{ justifyContent: "center", display:'flex', alignItems:"center"}}>
-                    <img src={"https://www.next-t.co.kr/public/uploads/7b7f7e2138e29e598cd0cdf2c85ea08d.jpg"}
+                <div className="PostsPageImage">
+                    <img src={"https://d2v80xjmx68n4w.cloudfront.net/gigs/uloP51705138977.jpg"}
                          style={{ width: 170, height: 170, marginRight: 5, cursor: 'pointer' }}
                          onClick={goPost}/>
-                    <img src={"https://www.next-t.co.kr/public/uploads/7b7f7e2138e29e598cd0cdf2c85ea08d.jpg"}
+                    <img src={"https://embed.pixiv.net/spotlight.php?id=9610&lang=ko"}
                          style={{ width: 170, height: 170, marginRight: 5, cursor: 'pointer' }}
                          onClick={goPost}/>
-                    <img src={"https://www.next-t.co.kr/public/uploads/7b7f7e2138e29e598cd0cdf2c85ea08d.jpg"}
+                    <img src={"https://i2.ruliweb.com/thumb/23/06/08/18896a04fa116493c.png"}
                          style={{ width: 170, height: 170, cursor: 'pointer' }}
                          onClick={goPost}/>
                 </div>
